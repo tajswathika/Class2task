@@ -1,0 +1,48 @@
+1.Difference between Nodejs and JavaScript :
+========================================================================================================================
+S.No	||	Javascript								||	NodeJS
+========================================================================================================================
+1.	|| Javascript is a programming language that is used for writing scripts on the website.	|| NodeJS is a Javascript runtime environment.
+2.	|| Javascript can only be run in the browsers.					|| NodeJS code can be run outside the browser.
+3.	|| It is basically used on the client-side.						|| It is mostly used on the server-side.
+4.	|| Javascript is capable enough to add HTML and play with the DOM.			|| Nodejs does not have capability to add HTML tags.
+5.	|| Javascript is used in frontend development.					|| Nodejs is used in server-side development.
+6.	|| Some of the javascript frameworks are RamdaJS, TypedJS, etc.			|| Some of the Nodejs modules are Lodash, express etc. These modules are to be imported from npm.
+7.	|| It is the upgraded version of ECMA script that uses Chrome’s V8 engine written in C++.	|| Nodejs is written in C, C++ and Javascript.
+========================================================================================================================
+
+
+2.Take away from youtube:
+
+*Parsing HTML - Script Execution->Tokenizer->Tree construction
+*Parsing CSS - Style sheet->p->div->selectors->margin-top
+*Parsing ->DOM Tree->Render Tree
+*We access browser data via API
+*Rendering engine does a lot of work on planning the visual page on each and every single part of the screen
+*Combine all styles and give out the Layout
+*Painting computes bitmaps and composites to screen
+
+3.Is Html head, body and tags necessary
+
+No, they are not must, we can even execute the html file without these tags.
+But to avoid confusion or risk, it is better to maintain the tags
+
+4.Description of the below:
+
+typeof(1)    - Number
+typeof(1.1) - Number
+typeof('1.1')-String
+typeof(true)-Boolean
+typeof(null)-object
+typeof(undefined)-undefined
+typeof([])-object
+typeof({})-object
+typeof(NaN)-Number
+
+5.Prototype:
+*Prototypes are the mechanism by which JavaScript objects inherit features from one another.
+*JavaScript is often described as a prototype-based language — to provide inheritance, objects can have a prototype object, which acts as a template object that it inherits methods and properties from.
+*An object's prototype object may also have a prototype object, which it inherits methods and properties from, and so on. This is often referred to as a prototype chain.
+*The prototype chain is traversed only while retrieving properties. If properties are set or deleted directly on the object, the prototype chain is not traversed.
+*The prototype property's value is an object, which is basically a bucket for storing properties and methods that we want to be inherited by objects
+
